@@ -9,6 +9,7 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PathDashPathEffect;
 import android.graphics.RectF;
+import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -41,9 +42,11 @@ public class SimplyDrawnView extends View {
         mPaint.setColor(Color.BLACK);
         canvas.drawLine(mWidth, 0, 200, mHeight, mPaint);
 
-        //Draw a red line
+        //Draw red line
+        mPaint.setColor(Color.RED); mPaint.setStrokeWidth(10);
 
-        //Draw green lines (using a for loop)
+        //Draw green lines
+
 
         //Draw Text
 
@@ -52,6 +55,7 @@ public class SimplyDrawnView extends View {
         //Draw filled, opaque, and open ovals
 
         //Draw bee bitmap
+        Drawable b = getResources().getDrawable(R.drawable.bee,null);
 
     }
 }
