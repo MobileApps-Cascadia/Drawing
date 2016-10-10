@@ -26,7 +26,7 @@ public class SimplyDrawnView extends View {
         super(context, attributeSet);
         mPaint = new Paint();
         mPath = new Path();
-    }
+     }
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
@@ -40,13 +40,13 @@ public class SimplyDrawnView extends View {
 
         //Draw line
         mPaint.setColor(Color.BLACK);
+        mPaint.setStrokeWidth(16.0f);
         canvas.drawLine(mWidth, 0, 200, mHeight, mPaint);
 
         //Draw red line
         mPaint.setColor(Color.RED); mPaint.setStrokeWidth(10);
 
         //Draw green lines
-
 
         //Draw Text
 
@@ -56,6 +56,8 @@ public class SimplyDrawnView extends View {
 
         //Draw bee bitmap
         Drawable b = getResources().getDrawable(R.drawable.bee,null);
+
+        //Add another image to drawable and draw it
 
     }
 }
