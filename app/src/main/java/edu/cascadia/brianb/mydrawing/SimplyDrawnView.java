@@ -43,21 +43,21 @@ public class SimplyDrawnView extends View {
         mPaint.setStrokeWidth(16.0f);
         canvas.drawLine(mWidth, 0, 200, mHeight, mPaint);
 
-        //Draw red line
+        //TODO: Finish drawing red line
         mPaint.setColor(Color.RED); mPaint.setStrokeWidth(10);
 
-        //Draw green lines
+        //TODO: Draw green lines
 
-        //Draw Text
+        //TODO: Draw Text
 
-        //Draw Text on a Path
+        //TODO: Draw Text on a Path
 
-        //Draw filled, opaque, and open ovals
+        //TODO: Draw filled, opaque, and open ovals
 
-        //Draw bee bitmap
+        //TODO: Draw bee bitmap
         Drawable b = getResources().getDrawable(R.drawable.bee,null);
 
-        //Add another image to drawable and draw it
+        //TODO: Add another image to drawable (drag and drop to Android Studio folder) and draw it
 
     }
 }
