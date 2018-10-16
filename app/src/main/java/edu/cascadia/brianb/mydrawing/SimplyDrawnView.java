@@ -55,9 +55,11 @@ public class SimplyDrawnView extends View {
         //TODO: Draw filled, opaque, and open ovals
 
         //TODO: Draw bee bitmap
+        //     HINT: since b is a Drawable, you can use its .draw method, but .setBounds on it first
         Drawable b = getResources().getDrawable(R.drawable.bee,null);
 
-        //TODO: Add another image to drawable (drag and drop to Android Studio folder) and draw it
+        //TODO: Add another image to the project (copy and paste to Android Studio res/drawable folder)
+        //     and draw it on the screen
 
     }
 }
